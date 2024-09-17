@@ -1,0 +1,38 @@
+<Request xmlns='http://bssys.com/upg/request'
+         orgId='b3bba17a-43e6-44fb-849a-cc362b0ed9b5'
+         requestId='%s'
+         version='01.010.02' sender='1С: Предприятие 8'
+         receiver='SBBOL_DBO' protocolVersion='32'>
+
+    <PayDocRu
+            docExtId='%s'
+            sentForSign='1'>
+        <AccDoc
+                accDocNo='%s'
+                docDate='%s'
+                docSum='2'
+                transKind='01'
+                paytKind='электронно'
+                priority='5'>
+            <Purpose>Оплата по договору. В том числе НДС 18 - 15.25</Purpose>
+        </AccDoc>
+
+        <Payer inn='0913198752'
+               personalAcc='40702810940006299396'>
+            <Name>Kho Earth</Name>
+            <Bank bic='044525225' correspAcc='30101810400000000225'>
+                <Name>ПАО СБЕРБАНК</Name>
+            </Bank>
+        </Payer>
+
+        <Payee inn='4410755203' personalAcc='40702810038004813615'>
+            <Name>TEST</Name>
+            <Bank bic='044525225'
+                  correspAcc='30101810400000000225'>
+                <Name>ПАО СБЕРБАНК</Name>
+            </Bank>
+        </Payee>
+
+    </PayDocRu>
+
+</Request>

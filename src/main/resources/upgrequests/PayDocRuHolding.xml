@@ -1,0 +1,48 @@
+<Request xmlns='http://bssys.com/upg/request'
+         orgId='04a0ccf5-6a67-44e0-a425-c7db7b47b437'
+         requestId='%s'
+         version='01.010.02' sender='HOLD_CLEAN'
+         receiver='SBBOL_DBO' protocolVersion="32">
+
+    <PayDocRu
+            docExtId='%s'
+            sentForSign='0'>
+        <AccDoc
+                accDocNo='%s'
+                docDate='%s'
+                docSum='2'
+                transKind='01'
+                paytKind='электронно'
+                priority='5'>
+            <Purpose>Оплата по договору. В том числе НДС 18 - 15.25</Purpose>
+        </AccDoc>
+
+        <Payer inn='3219975620'
+               personalAcc='40702810103006296461'>
+            <Name>Kho Peace</Name>
+            <Bank bic='040813608' correspAcc='30101810600000000608'>
+                <Name>ДАЛЬНЕВОСТОЧНЫЙ БАНК ПАО СБЕРБАНК</Name>
+            </Bank>
+        </Payer>
+
+        <Payee inn='4410755203' personalAcc='40702810038004813615'>
+            <Name>TEST</Name>
+            <Bank bic='044525225'
+                  correspAcc='30101810400000000225'>
+                <Name>ПАО СБЕРБАНК</Name>
+            </Bank>
+        </Payee>
+
+    </PayDocRu>
+
+    <Sign>
+        <Issuer>CN=ПАО Сбербанк УЦ (ТЕСТ Q)</Issuer>
+        <SN>7B71393BAF1376B396FB</SN>
+        <Value>
+
+            %s
+
+        </Value>
+    </Sign>
+
+</Request>

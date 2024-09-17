@@ -1,0 +1,24 @@
+ATTRIBUTES
+OrgId=04a0ccf5-6a67-44e0-a425-c7db7b47b437
+Sender=HOLD_CLEAN
+ExtId=%s
+FIELDS
+AccDoc.AccDocNo=%s
+AccDoc.DocDate=%s
+AccDoc.DocSum=2.00
+AccDoc.PaytKind=электронно
+AccDoc.Priority=5
+AccDoc.Purpose=Оплата по договору. В том числе НДС 18 - 15.25
+AccDoc.TransKind=01
+Payee.Bank.Name=ПАО СБЕРБАНК
+Payee.Bank.Bic=044525225
+Payee.Bank.CorrespAcc=30101810400000000225
+Payee.INN=4410755203
+Payee.Name=TEST
+Payee.PersonalAcc=40702810038004813615
+Payer.Bank.Name=ДАЛЬНЕВОСТОЧНЫЙ БАНК ПАО СБЕРБАНК
+Payer.Bank.Bic=040813608
+Payer.Bank.CorrespAcc=30101810600000000608
+Payer.INN=3219975620
+Payer.Name=Kho Peace
+Payer.PersonalAcc=40702810103006296461

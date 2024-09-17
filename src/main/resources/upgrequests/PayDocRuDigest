@@ -1,0 +1,24 @@
+ATTRIBUTES
+OrgId=b3bba17a-43e6-44fb-849a-cc362b0ed9b5
+Sender=Сбербанк Бизнес
+ExtId=%s
+FIELDS
+AccDoc.AccDocNo=%s
+AccDoc.DocDate=%s
+AccDoc.DocSum=2.00
+AccDoc.PaytKind=электронно
+AccDoc.Priority=5
+AccDoc.Purpose=Оплата по договору. В том числе НДС 18 - 15.25
+AccDoc.TransKind=01
+Payee.Bank.Name=ПАО СБЕРБАНК
+Payee.Bank.Bic=044525225
+Payee.Bank.CorrespAcc=30101810400000000225
+Payee.INN=4410755203
+Payee.Name=TEST
+Payee.PersonalAcc=40702810038004813615
+Payer.Bank.Name=ПАО СБЕРБАНК
+Payer.Bank.Bic=044525225
+Payer.Bank.CorrespAcc=30101810400000000225
+Payer.INN=0913198752
+Payer.Name=Kho Earth
+Payer.PersonalAcc=40702810940006299396

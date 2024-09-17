@@ -1,0 +1,12 @@
+<Request xmlns="http://bssys.com/upg/request"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:type="Request"
+         requestId="%s"
+         orgId="b3bba17a-43e6-44fb-849a-cc362b0ed9b5" version='3.0'
+         xsi:schemaLocation="http://bssys.com/upg/request request.xsd"
+         sender="1С: Предприятие 8" receiver="SBBOL_DBO" protocolVersion='32'>
+    <DocIds>
+        <DocId docExtId="%s"/>
+    </DocIds>
+</Request>
